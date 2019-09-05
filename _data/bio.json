@@ -1,57 +1,50 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Jessica Ocampo",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://jnocampo.github.io/images/molly.png",
+    "email": "jnocampo@hawaii.edu",
+    "phone": "415-494-1935",
+    "website": "https://jnocampo.github.io",
+    "summary": "I am currently studying Computer Science at the University of Hawai'i at Mānoa.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "",
+      "city": "San Francisco",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "California"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "jnocampo",
+        "url": "http://github.com/jnocampo"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "jnocampo",
+        "url": "http://linkedin.com/in/jnocampo"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "sfjessss",
+        "url": "http://instagram.com/sfjessss"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Software Engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Web/App Development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Augmented/Virtual Reality",
       "keywords": [
       ]
     }
