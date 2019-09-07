@@ -47,7 +47,7 @@ design.
 
 Circuit for slave control:
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/slave control.png">
+  <img class="ui image" src="../images/slave control.png"style="width: 100%;">
 </div>
 
 
