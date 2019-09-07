@@ -41,7 +41,7 @@ and create an I2C_test part in your library.
 connected to switches, hex keypads, hex displays and probes to exercise your
 design.
 
-Here is some VHDL for Slave Control:
+Here is some of the VHDL for Slave Control:
 
 ```js
 library IEEE;
@@ -133,7 +133,7 @@ end process clk_process;
 end arch1;
 ```
 
-You can learn more at the [Task Website](http://ee.hawaii.edu/~tep/EE260/Secret/task3.html).
+You can learn more at the [Task Website](http://ee.hawaii.edu/~tep/EE260/Secret/task3.html) &.
 [See the finished work](https://docs.google.com/document/d/1jEuwWkm1gD7iVLl16eM64bXCBm80wY5aYX2AfWJ509s/edit?usp=sharing)
 
 
