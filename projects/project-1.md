@@ -14,14 +14,10 @@ summary: My team test the operation of our Master and Slave Control unit that we
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/task.png">
 </div>
 
 Given our work, we provided a demo for our class of our product.
-
 
 To prepare for the demo, we needed to:
 
@@ -49,6 +45,8 @@ and create an I2C_test part in your library.
 connected to switches, hex keypads, hex displays and probes to exercise your
 design.
 
+
+Circuit for slave control:
 <div class="ui small rounded images">
   <img class="ui image" src="../images/slave control.png">
 </div>
