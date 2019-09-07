@@ -50,7 +50,7 @@ connected to switches, hex keypads, hex displays and probes to exercise your
 design.
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
+  <img class="ui image" src="../images/slave control.png">
 </div>
 
 
