@@ -49,6 +49,10 @@ and create an I2C_test part in your library.
 connected to switches, hex keypads, hex displays and probes to exercise your
 design.
 
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/micromouse-robot.png">
+</div>
+
 
 Here is some of the VHDL for Slave Control:
 
