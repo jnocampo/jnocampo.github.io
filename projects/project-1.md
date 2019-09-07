@@ -12,12 +12,11 @@ labels:
   - VHDL
 summary: My team test the operation of our Master and Slave Control unit that we did throught the year by integrating them into the given test circuit.
 ---
+Given our work, we provided a demo for our class of our product.
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/task.png">
 </div>
-
-Given our work, we provided a demo for our class of our product.
 
 To prepare for the demo, we needed to:
 
