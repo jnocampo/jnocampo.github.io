@@ -41,7 +41,6 @@ connected to switches, hex keypads, hex displays and probes to exercise your
 design.
 
 Here is some VHDL for Slave Control:
-#insert image of it below
 
 ```js
 library IEEE;
