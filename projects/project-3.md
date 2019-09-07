@@ -1,61 +1,32 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/girlswhocode.png
+title: Girls Who Code
+permalink: projects/GWC
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2019-01-12
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - programming
+  - teaching
+  - leadership 
+summary: Student aid for the Girls Who Code Chapter in Honolulu.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/girlswhocode2.jpg">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 
-To give you a flavor of the game, here is an excerpt from one run:
+**What is girls who code?**
 
-<hr>
+Girls Who code is a nonprofit organization that aims to help young girls get interested in computer science and get the opportunities in the field.
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+I spent a good portion of the beginning of the year volunteering and becoming a student aid for a local Girls Who Code program in Honolulu. I have heard of the GWC program since I was in high school myself. It is a great organization that gives young women the opportunity to learn more about computer science. 
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+After taking a few classes at the University of Hawai't at Manoa, I had remembered about the clubs back home and was out to search for one locally. I wanted to help give back into a community that promotes women success and education. Being a part of the program helped enrich my knowledge and immerse myself in the younger community and their thoughts and dreams on being a computer scientist! 
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
+Some skills I had learned will being a part of a program was leadership, creating presentations and reinforcing my own background in programming. What was most enriching was inspiring the young girls and encouraging them that they could do whatever they want. I think I learned more from them than they did me. 
 
-pickup candle
-- you are now carrying the candle -
 
-pickup match
-- you are now carrying the match -
+Find your local club and help support young girls interested in STEM
 
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+[Girls Who Code Locations](https://girlswhocode.com/locations/). 
