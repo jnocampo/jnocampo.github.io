@@ -144,7 +144,7 @@ end arch1;
 ```
 
 You can learn more at the [Task Website](http://ee.hawaii.edu/~tep/EE260/Secret/task3.html) &
-[See the finished work](https://jnocampo.github.io/projects/I2c)
+[See the finished work](https://www.dropbox.com/s/qu9c25uzho604qq/ee260.pdf?dl=0)
 
 
 
