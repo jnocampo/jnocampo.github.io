@@ -133,7 +133,7 @@ end arch1;
 ```
 
 You can learn more at the [Task Website](http://ee.hawaii.edu/~tep/EE260/Secret/task3.html).
-See the finished work (https://docs.google.com/document/d/1jEuwWkm1gD7iVLl16eM64bXCBm80wY5aYX2AfWJ509s/edit?usp=sharing)
+[See the finished work](https://docs.google.com/document/d/1jEuwWkm1gD7iVLl16eM64bXCBm80wY5aYX2AfWJ509s/edit?usp=sharing)
 
 
 
