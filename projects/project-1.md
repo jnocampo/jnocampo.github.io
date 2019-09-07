@@ -21,22 +21,23 @@ summary: My team test the operation of our Master and Slave Control unit that we
 </div>
 
 Given our work, we provided a demo for our class of our product.
+
 To prepare for the demo, we needed to:
-• Prepare a Master top level structural VHDL file which connects the Master
+  • Prepare a Master top level structural VHDL file which connects the Master
 Control, AU, DU, and Count modules and create a Master part in your I2C
 library. (NOTE: you will need to use tri-state drivers on the outputs of your AU
 and DU enabled by abit and dbit, respectively, to generate the Master oSDA
 signal. A process to do this in VHDL this might look like this.
-• Prepare a Slave top level structural VHDL file which connects the Slave Control,
+  • Prepare a Slave top level structural VHDL file which connects the Slave Control,
 AU, DU, and Count modules and create a Slave part in your I2C library.
-• Prepare a test top level which has one instance of your Master part and one
+  • Prepare a test top level which has one instance of your Master part and one
 instance of your Slave part connected as follows:
 o the Master Busy output connected to the Slave Busy input,
 o the Slave ACK output connected to the Master iSDA input,
 o the Master oSDA output connected to the Slave iSDA input,
 o a common clock signal to both Master and Slave CLK inputs.
 and create an I2C_test part in your library.
-• Create a LogicWorks circuit file with one instance of your I2C_test part
+  • Create a LogicWorks circuit file with one instance of your I2C_test part
 connected to switches, hex keypads, hex displays and probes to exercise your
 design.
 
