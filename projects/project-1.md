@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/digitaldesign.gif
 title: Master and Slave Control
 permalink: projects/I2c
 # All dates must be YYYY-MM-DD format!
