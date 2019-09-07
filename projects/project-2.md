@@ -1,25 +1,106 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/bank.png
+title: bankDatabase
+permalink: projects/bankDatabase
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-04-30
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
+  - C
+  - C++
   - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+summary: database functions for the bank database application.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/bank.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+This program holds a database of user accounts and displays a menu of different choices for the user to interact with the accounts inside the database. It also allows user to create new accounts. Each account holds the users information such as name, birthdate, account number, etc.  
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+For my class, I wrote this in C and in C++.
+
+
+
+getAddress in C:
+
+
+```js
+void getaddress (char *address, int lineChars)
+{
+    char str[100];
+
+    if (debug == 1)
+    {
+        printf("----- getAddress DEBUG ----- \n");
+        printf("----- lineChars : %d\n", lineChars);
+    }   
+     
+    printf("Enter the address of the account : \n");
+    printf("Include '^' at the end to indicate the end of the address : \n ");
+
+    strcpy(address, "");
+    while (fgets(str, 99, stdin))
+    {
+        fseek(stdin, 0, SEEK_END);
+        if (str[strlen(str) - 2] == '^') {
+            strcat(address, str);
+            fseek(stdin, 0, SEEK_END);
+            break;
+        }
+        else
+        {
+            strcat(address, str);
+        }
+    }
+    strcpy(str, "");
+}
+```
+
+
+
+getAddress in C++:
+
+
+
+```js
+
+void getaddress(char address[])
+{
+    char user_input[100];
+    
+    #if DEBUG == 1
+        cout << "----- DEBUG getAddress -----" << endl;
+        cout << "Address : " << address << endl;
+    #endif
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+    cout << "Enter the address of the account : " << endl;
+    cout << "Include '^' at the end to indicate the end of the address : " << endl;
+
+    cin.ignore();
+
+    while(cin.getline(user_input, 99))
+    {
+        if(user_input[strlen(user_input) - 1] == '^') {
+            strcat(address, user_input);
+            fseek(stdin, 0, SEEK_END);
+            break;
+        }
+        else
+        {
+            strcat(address, user_input);
+            strcat(address, "\n");
+        }
+    }
+    strcpy(user_input, "");
+}
+```
+
+
+
+[Project Informaiton]() 
+
+[My Work in C](https://github.com/jnocampo/ICS-212) 
+
+[My Work in C++](https://github.com/jnocampo/ics212-project2)
+ 
