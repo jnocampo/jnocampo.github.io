@@ -36,16 +36,16 @@ AU, DU, and Count modules and create a Slave part in your I2C library.
 
   • Prepare a test top level which has one instance of your Master part and one
 instance of your Slave part connected as follows:
-    o the Master Busy output connected to the Slave Busy input,
+      o the Master Busy output connected to the Slave Busy input,
   
-    o the Slave ACK output connected to the Master iSDA input,
+      o the Slave ACK output connected to the Master iSDA input,
   
-    o the Master oSDA output connected to the Slave iSDA input,
+      o the Master oSDA output connected to the Slave iSDA input,
   
-    o a common clock signal to both Master and Slave CLK inputs.
+      o a common clock signal to both Master and Slave CLK inputs.
 and create an I2C_test part in your library.
 
-    • Create a LogicWorks circuit file with one instance of your I2C_test part
+  • Create a LogicWorks circuit file with one instance of your I2C_test part
 connected to switches, hex keypads, hex displays and probes to exercise your
 design.
 
