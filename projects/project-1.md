@@ -15,7 +15,7 @@ summary: My team test the operation of our Master and Slave Control unit that we
 Given our work, we provided a demo for our class of our product. The purpose of this task was to test the operation of our Master and Slave Control units that we have done throught the semester by integrating them into the test circuit shown below:
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/task.png"style="width: 100%;">
+  <img class="ui image" src="../images/task.png" style="width: 100%;">
 </div>
 
 To prepare for the demo, we needed to:
@@ -47,7 +47,7 @@ design.
 
 Circuit for slave control:
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/slave control.png"style="width: 100%;">
+  <img class="ui image" src="../images/slave control.png" style="width: 100%;">
 </div>
 
 
