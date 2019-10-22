@@ -24,7 +24,7 @@ I spent a good portion of the beginning of the year volunteering and becoming a 
 
 After taking a few classes at the University of Hawai't at Manoa, I had remembered about the clubs back home and was out to search for one locally. I wanted to help give back into a community that promotes women success and education. Being a part of the program helped enrich my knowledge and immerse myself in the younger community and their thoughts and dreams on being a computer scientist! 
 
-Some skills I had learned will being a part of a program was leadership, creating presentations and reinforcing my own background in programming. What was most enriching was inspiring the young girls and encouraging them that they could do whatever they want. I think I learned more from them than they did me. 
+Some skills I learned while being a part of this program was leadership, creating presentations and reinforcing my own background in programming. What was most enriching was inspiring the young girls and encouraging them that they could do whatever they want. I think I learned more from them than they did me. 
 
 
 Find your local club and help support young girls interested in STEM
