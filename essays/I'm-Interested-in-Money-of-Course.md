@@ -1,10 +1,10 @@
----
+----
 layout: essay
 type: essay
 title: I'm Interested in Money of Course 
 # All dates must be YYYY-MM-DD format!
-date: 2019-09-06
-labels:
+date: 2020-09-04
+labels:-
   - Software Engineering
   - Learning
 
