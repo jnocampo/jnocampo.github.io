@@ -21,12 +21,12 @@ In Fall 2019, my team and I got third place at HACC2019. The Honolulu Annual Cod
 </div>
 
 The challenges we faced in grading was:
-  • Originallity
-  • Design
-  • Resillience
-  • Utility and Impact
-  • Team Collaboration
-  • Presentation
+  - Originallity
+  - Design
+  - Resillience
+  - Utility and Impact
+  - Team Collaboration
+  - Presentation
 
 
 My teams' [project video](https://devpost.com/software/volts-wagon) 
