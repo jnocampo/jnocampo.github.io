@@ -4,9 +4,11 @@ type: essay
 title: I'm Interested in Money of Course 
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-04
-labels:-
+labels:
   - Software Engineering
   - Learning
+----
+
 
 
 **Money**. Let's be honest. Money plays a big part of why lots of people would like to be Software Engineers. It is such a broad field and is so versitile on the ways of how you plan your life. It is, the job of this future. It is a good career that will get you that six-figure pay we all want. Most people are money driven and I am too to an extent. I am being real and it plays a big part.
