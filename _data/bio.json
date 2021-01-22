@@ -4,15 +4,15 @@
     // "label": "",
     "picture": "https://jnocampo.github.io/images/IMG_5601.JPG",
     "email": "jnocampo@hawaii.edu",
-    "phone": "415-494-1935",
+    "phone": "",
     "website": "https://jnocampo.github.io",
     "summary": "Computer Science student at the University of Hawai'i at Mānoa",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "San Francisco",
+      "city": "Honolulu",
       "countryCode": "USA",
-      "region": "California"
+      "region": "Hawaii"
     },
     "profiles": [
       {
