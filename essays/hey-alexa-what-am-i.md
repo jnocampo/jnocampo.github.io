@@ -36,7 +36,7 @@ So I recently started doing the 100 days of code challenge. I want to build stro
 
 So maybe at the end of the challenge I will be a javascript **GOD**. (Watch out Professor Johnson, I am taking the title). Or maybe I will need to get a bunch of new pants. We will see. My fingers are crossed, I have high hopes for that title. One things for sure, 
 
-            ##My name is Jessica and I am a programmer. 
+            **My Name is Jessica and I am a programmer**
 
 
 
