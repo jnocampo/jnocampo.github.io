@@ -4,11 +4,22 @@
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
 
+
+.profImage{
+  border-radius: 50%;
+  border: 3px solid white;
+  display: inline-block;
+  height:200px;
+  width: 200px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
 <section id="section-content">
     <div id="home" class="container-fluid home">
       <div class="row mx-auto">
         <div class="col-xs-12 col-md-4 col-lg-4">
-            <img id="self-image" src="{{ site.data.bio.basics.picture }}" width="128" height="128">
+            <img id="self-image" src="{{ site.data.bio.basics.picture }}" class="profImage">
         </div>
         <div class="col-xs-12 col-md-8 col-lg-8 my-auto">
             <h1 id="name" class="mt-2 mb-3">{{ site.data.bio.basics.name }}</h1>
