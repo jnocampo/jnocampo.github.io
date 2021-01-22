@@ -1,22 +1,288 @@
----
-# Provide front matter so Jekyll processes this file as SASS.
----
-
-// Put your custom CSS here if you want to override the defaults.
-// Here are some common customizations for colors
+body,
+html {
+  height: 100vh;
+}
 
 // Customize the background color
 body {
-  // background-color: #f2f2f2;;
+  background: #a5a58d;
 }
 
-// Customize the menubar color
-.ui.menu {
-  // background: $background-start;
+.line-hr {
+  border: 3px solid #ddbea9;
+  // position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
 }
 
-// Customize the home page icon colors
-.icon-color {
-  // color: silver;
+.pre-content {  
+  bottom: 100%;
+  margin: 0 !important;
 }
 
+.post-content {
+  position: absolute;
+  top: 100.2vh;
+  margin: 0 !important;
+}
+
+#home {
+  padding-top: 10vh;
+}
+
+#site-content {
+  min-height: 89.5vh;
+}
+
+#self-image {
+  border: 3px solid #ddbea9;
+  border-radius: 500px;
+  max-width: 225px;
+}
+
+.navbar {
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+}
+
+.nav-link {
+  color: #ffe8d6 !important;
+  font-size: 1.0252rem;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  color: #b7b7a4 !important;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.3525rem;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list li{
+  display: inline;
+  margin-right: 5%;
+  margin-left: 5%
+}
+
+#company {
+  color: rgba(39, 168, 34, 1.0);
+  text-decoration: none;
+  transition: 0.2s
+}
+
+#company:hover {
+  color: #b7b7a4;
+}
+
+.icon-link span {
+  color: rgba(39, 168, 34, 1.0);
+  transition: 0.2s
+}
+
+.icon-link span:hover {
+  color: #b7b7a4;
+  transform: translateY(-7px);
+}
+
+.icon-link:hover {
+  text-decoration: none;
+}
+
+#about-me {
+  width: 100%;
+}
+
+#moto-pic {
+  height: 300px;
+  width: 100%
+}
+
+.fa-home {
+  transition: 0.2s;
+}
+
+.fa-home:hover {
+  color: #b7b7a4;
+  transform: translateY(-7px);
+}
+
+#missing-content {
+  padding-top: 20vh;
+}
+
+#missing-text {
+  font-size: 8rem !important;
+  padding-left: 15px;
+}
+
+#missing-content h2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#missing-content a {
+  color: rgba(0, 120, 0, 1.0);
+  text-decoration: none;
+  transition: 2ms;
+}
+
+#missing-content a:hover {
+  color: #b7b7a4;
+}
+
+/***********************************
+      SUPER SMALL PHONES
+***********************************/
+
+@media (max-width: 320px) {
+  #section-content h1 {
+    font-size: 2.1rem;
+  }
+  
+  #section-content h2 {
+    font-size: 1.3rem
+  }
+}
+
+@media (max-width: 767px) {
+  .col-xs-12 {
+    text-align: center;
+  }
+}
+
+/***********************************
+      BIG-ISH SCREENS / Tablets
+***********************************/
+
+@media (min-width: 768px) {
+  .col-md-8 {
+    border-left: 2px solid #ffe8d6;
+  }
+
+  #self-image {
+    max-width: 200px;
+  }
+
+  #section-content h1 {
+    font-size: 4.25rem;
+  }
+  
+  #section-content h2 {
+    font-size: 1.35rem
+  }
+
+  .fa-lg {
+    font-size: 1.15;
+  }
+
+  #moto-pic {
+    height: 500px;
+    width: 700px;
+  }
+}
+
+/* regular laptops */
+
+@media (min-width: 992px) { 
+  #site-content {
+    max-width: 90%;
+    flex: 1 0 auto;
+  }
+
+  .pre-content {  
+    bottom: 100%;
+  }
+  
+  .post-content {
+    top: 99.4vh;
+  }
+
+  #home {
+    padding-top: 20vh;
+  }
+
+  #section-content h1 {
+    font-size: 5rem;
+  }
+  
+  #section-content h2 {
+    font-size: 1.85rem
+  }
+
+  #self-image {
+    max-width: 225px;
+  }
+
+  .col-lg-8 {
+    border-left: 2px solid #ffe8d6;
+  }
+
+  .fa-lg {
+    font-size: 1.4242;
+  }
+
+  .contact-list li{
+    margin-right: 5%;
+    margin-left: 0;
+  }
+
+  footer span {
+    font-size: 1.25rem;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+/***********************************
+      LARGE LAPTOPS / DESKTOPS
+***********************************/
+
+@media (min-width: 1200px) {
+  #site-content {
+    max-width: 90%;
+  }
+
+  #section-content h1 {
+    font-size: 8.0rem;
+  }
+
+  .nav-link, .fa-home {
+    font-size: 1.3625rem;
+  }
+
+  #self-image {
+    max-width: 275px;
+  }
+  
+  #section-content h2 {
+    font-size: 2.125em
+  }
+
+  .fa-lg {
+    font-size: 1.5252rem;
+  }
+
+  #about-me {
+    width: 70%;
+  }
+}
