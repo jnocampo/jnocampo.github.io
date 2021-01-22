@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: I'm Interested in Money of Course
 # All dates must be YYYY-MM-DD format!
-date: 2020-09-04
+date: 
 labels:
   - Learning
   - Athletic Engineering

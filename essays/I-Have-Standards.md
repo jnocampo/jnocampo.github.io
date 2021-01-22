@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: I Have Standards
 # All dates must be YYYY-MM-DD format!
-date: 2020-09-24
+date: 
 labels:
   - Coding Standards
 ---
