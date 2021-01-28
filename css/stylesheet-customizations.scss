@@ -9,7 +9,9 @@ body {
 }
 
 .line-hr {
-  border: 3px solid #ddbea9;
+  background-color: #343534;
+   height: 60px;
+  box-shadow: none;
   // position: absolute;
   width: 100%;
   left: 0;
@@ -52,7 +54,7 @@ body {
 }
 
 .nav-link {
-  color: #ffe8d6 !important;
+  color: white !important;
   font-size: 1.0252rem;
   transition: 0.2s;
 }
