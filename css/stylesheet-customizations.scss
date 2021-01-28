@@ -3,6 +3,23 @@ html {
   height: 100vh;
 }
 
+//recently added below 
+.ui.borderless.topmenu.menu {
+  background-color: #343534;
+  height: 60px;
+  box-shadow: none;
+  border: none;
+  font-size: 15px;
+  font-color: white;
+}
+.logo-img{
+  position: fixed;
+  margin: 15px 15px 15px 15px;
+  left: 0;
+  display:inline;
+  color: white;
+}
+
 // Customize the background color
 body {
   background: #f0efeb;
