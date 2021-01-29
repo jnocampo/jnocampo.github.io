@@ -9,7 +9,7 @@ labels:
   - StackOverFlow
 ---
 
-I am guilty of asking not “smart” questions. I think we all are at fault to that at some point. After reading [How To Ask Smart Questions the Smart Way][http://www.catb.org/esr/faqs/smart-questions.html] by Eric Stevens Raymond, it really gave me clarity in the way I communicate my questions and thoughts. I believe it is easier for all of us to aimlessly ask questions we do not want to actually put the work in figuring it out ourselves. With google within reach of our fingertips it is so easy to ask “stupid” questions. When I say **“stupid”** questions, I mean in the context of how Eric Stevens describes. 
+I am guilty of asking not “smart” questions. I think we all are at fault to that at some point. After reading [How To Ask Smart Questions the Smart Way](http://www.catb.org/esr/faqs/smart-questions.html) by Eric Stevens Raymond, it really gave me clarity in the way I communicate my questions and thoughts. I believe it is easier for all of us to aimlessly ask questions we do not want to actually put the work in figuring it out ourselves. With google within reach of our fingertips it is so easy to ask “stupid” questions. When I say **“stupid”** questions, I mean in the context of how Eric Stevens describes. 
 
 
 
@@ -24,12 +24,12 @@ When you truly feel that you have a smart question and have endeavoured all real
 
 
 ####Let’s look at these two questions and distinguish why one of them is a smart question and why one isn’t 
-[What is the difference between git pull and git fetch?][https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch]
-[How can I safely create a nested directory?][https://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory]
+[What is the difference between git pull and git fetch?](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)
+[How can I safely create a nested directory?](https://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory)
 
 
 
-#####Let’s look a question 1
+##### Let’s look a question 1
 
 What is the difference between git pull and git fetch?
 
@@ -38,12 +38,12 @@ This is an example of a **not** smart question. This question can easily be answ
 
 
 
-#####Question 2
+##### Question 2
 
 How can I safely create a nested directory?
 
 
-This question is a **smart question**. If you look at [this page][https://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory].It was a specific question where the user provided their code, and displayed what they had tried. 
+This question is a **smart question**. If you look at [this page](https://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory). It was a specific question where the user provided their code, and displayed what they had tried. 
 
 
 
