@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/digitaldesign.gif
+image: images/hacc_image.png
 title: HACC 2019
 permalink: projects/I2c
 # All dates must be YYYY-MM-DD format!
