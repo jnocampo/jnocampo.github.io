@@ -18,7 +18,7 @@ My interest in software engineering really focuses around how I can become an ef
 
 
 
-<img class="ui image" src="../images/internet_is_great.jpg.jpg" style="width: 100%;">
+<img class="ui image" src="../images/internet_is_great.jpg" style="width: 100%;">
 
 
 
