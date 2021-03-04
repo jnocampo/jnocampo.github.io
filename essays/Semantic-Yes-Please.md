@@ -48,8 +48,8 @@ Whereas with Semantic UI, your easy to read code would be presented like this:
 `<button class="ui facebook button">
   <i class="facebook icon"></i>
   Facebook
-</button>
-<button class="ui twitter button">
+</button>`
+`<button class="ui twitter button">
   <i class="twitter icon"></i>
   Twitter
 </button>`
@@ -60,8 +60,12 @@ Whereas with Semantic UI, your easy to read code would be presented like this:
 
 <br>
 
+So far, my experience with Semantic UI has been positive, I have not had much experience with any other frameworks before Semantic UI, and I am glad this was my first introduction as it has left me with a positive experience. I am looking forward to learn what else I can do and integrate with Semantic UI.
 
-You cannot tell me, a dyslexic person as myself, that this is not 
-<img class="ui image" src="../images/chefkiss.jpg" style="width: 100%;">
+<br>
+
+
+**oh Semantic UI, you are just.... 
+<img class="ui image" src="../images/chefkiss.jpg" style="width: 75%;">
 
 
