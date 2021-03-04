@@ -68,6 +68,6 @@ So far, my experience with Semantic UI has been positive, I have not had much ex
 **oh Semantic UI, you are just.... 
 
 <br>
-<img class="ui image" src="../images/chefkiss.jpg" style="width:200px; height: 40px;">
+<img class="ui image" src="../images/chefkiss.jpg" style="width:100px; height: 20px;">
 
 
