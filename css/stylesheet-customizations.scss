@@ -1,308 +1,123 @@
-body,
-html {
-  height: 100vh;
-}
+---
+# Provide front matter so Jekyll processes this file as SASS.
+---
 
-//recently added below 
-.ui.borderless.topmenu.menu {
-  background-color: #343534;
-  height: 60px;
-  box-shadow: none;
-  border: none;
-  font-size: 15px;
-  font-color: white;
-}
-.logo-img{
-  position: fixed;
-  margin: 15px 15px 15px 15px;
-  left: 0;
-  display:inline;
-  color: white;
-}
-
-// Customize the background color
-body {
-  background: #f0efeb;
-}
-
-.line-hr {
-  background-color: #343534;
-   height: 60px;
-  box-shadow: none;
-  // position: absolute;
-  width: 100%;
+// Global CSS STARTS 
+.border-other {
+  border-top: 10px solid #f2f2f2; // border at top and bottom
   left: 0;
   right: 0;
 }
 
-.pre-content {  
-  bottom: 100%;
-  margin: 0 !important;
-}
 
-.post-content {
-  position: absolute;
-  top: 100.2vh;
-  margin: 0 !important;
-}
+// Global CSS ENDS
 
-#home {
-  padding-top: 10vh;
-}
-
-#site-content {
-  min-height: 89.5vh;
-}
-
-#self-image {
-  border: 3px solid #ddbea9;
-  border-radius: 500px;
-  max-width: 225px;
-}
-
-.navbar {
-  padding: 0;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
-}
-
-.navbar-nav {
-  flex-direction: row !important;
-}
-
-.nav-link {
-  color: white !important;
-  font-size: 1.0252rem;
-  transition: 0.2s;
-}
-
-.nav-link:hover {
-  color: #b7b7a4 !important;
-}
-
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.3525rem;
-}
-
-h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.3rem
-}
-
-.contact-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.contact-list li{
-  display: inline;
-  margin-right: 5%;
-  margin-left: 5%
-}
-
-#company {
-  color: #a5a58d;
-  text-decoration: none;
+// Menu CSS STARTS
+.menu-buttons {
+  font-family: 'Quicksand', serif !important;
   font-size: 20px;
-  transition: 0.2s
+  color: #000 !important;
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
-#company:hover {
-  color: #b7b7a4;
+p.menu-buttons:hover {
+  color: #d5ede4 !important;
 }
 
-.icon-link span {
-  color: black;
-  transition: 0.2s
+.big.icon:hover {
+  color: #d5ede4 !important;
 }
 
-.icon-link span:hover {
-  color: #a5a58d;
-  transform: translateY(-7px);
+.big.icon {
+  color: #000000 !important;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
-.icon-link:hover {
-  text-decoration: none;
+
+//Home page CSS STARTS & Custom background colors 
+body {
+  background-color: #FFFFFF; //white
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#about-me {
-  width: 100%;
+#name {
+  font-family: 'Oxygen', serif !important;
+  font-size: 80px;
 }
 
-#moto-pic {
-  height: 300px;
-  width: 100%
+#label {
+  font-size: 30px;
 }
 
-.fa-home {
-  transition: 0.2s;
+#summary {
+  font-size: 20px;
 }
 
-.fa-home:hover {
-  color: #b7b7a4;
-  transform: translateY(-7px);
+#home-middle {
+  padding-left: 300px;
 }
 
-#missing-content {
-  padding-top: 20vh;
+#border-home {
+  border-top: 10px solid #d5ede4; // gives it the border
+  left: 0;
+  right: 0;
 }
 
-#missing-text {
-  font-size: 8rem !important;
-  padding-left: 15px;
+#image {
+  border: 5px solid #f2f2f2; //black
+  border-radius: 500px;
 }
 
-#missing-content h2 {
-  padding-left: 15px;
-  padding-right: 15px;
+#middle-text {
+  font-family: 'Raleway', serif !important;
+  float: middle;
+  padding-top: 160px;
 }
 
-#missing-content a {
-  color: rgba(0, 120, 0, 1.0);
-  text-decoration: none;
-  transition: 2ms;
+.ui.fluid.circular.image {
+  padding-left: 50px !important;
+  padding-top: 150px;
 }
 
-#missing-content a:hover {
-  color: #b7b7a4;
+.huge.icon:hover {
+  color: #d5ede4 !important;
 }
 
-/***********************************
-      SUPER SMALL PHONES
-***********************************/
-
-@media (max-width: 320px) {
-  #section-content h1 {
-    font-size: 2.1rem;
-  }
-  
-  #section-content h2 {
-    font-size: 1.3rem
-  }
+.huge.icon {
+  color: #000000 !important;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
-@media (max-width: 767px) {
-  .col-xs-12 {
-    text-align: center;
-  }
+// icon home page colors 
+.icon-color {
+   color: #000000;
+}
+// Home page ENDS
+
+
+
+//Project CSS START
+#projects {
+  padding-top: 50px;
 }
 
-/***********************************
-      BIG-ISH SCREENS / Tablets
-***********************************/
-
-@media (min-width: 768px) {
-  .col-md-8 {
-    border-left: 2px solid #ffe8d6;
-  }
-
-  #self-image {
-    max-width: 200px;
-  }
-
-  #section-content h1 {
-    font-size: 4.25rem;
-  }
-  
-  #section-content h2 {
-    font-size: 1.35rem
-  }
-
-  .fa-lg {
-    font-size: 1.15;
-  }
-
-  #moto-pic {
-    height: 500px;
-    width: 700px;
-  }
+.project-text {
+  font-family: 'Raleway', 'Helvetica Neue', sans-serif !important;
 }
 
-/* regular laptops */
-
-@media (min-width: 992px) { 
-  #site-content {
-    max-width: 90%;
-    flex: 1 0 auto;
-  }
-
-  .pre-content {  
-    bottom: 100%;
-  }
-  
-  .post-content {
-    top: 99.4vh;
-  }
-
-  #home {
-    padding-top: 20vh;
-  }
-
-  #section-content h1 {
-    font-size: 5rem;
-  }
-  
-  #section-content h2 {
-    font-size: 1.85rem
-  }
-
-  #self-image {
-    max-width: 225px;
-  }
-
-  .col-lg-8 {
-    border-left: 2px solid #ffe8d6;
-  }
-
-  .fa-lg {
-    font-size: 1.4242;
-  }
-
-  .contact-list li{
-    margin-right: 5%;
-    margin-left: 0;
-  }
-
-  footer span {
-    font-size: 1.25rem;
-  }
-
-  footer p {
-    font-size: 1rem;
-  }
+.ui.text.container {
+  max-width: 900px !important;
 }
 
-/***********************************
-      LARGE LAPTOPS / DESKTOPS
-***********************************/
-
-@media (min-width: 1200px) {
-  #site-content {
-    max-width: 90%;
-  }
-
-  #section-content h1 {
-    font-size: 8.0rem;
-  }
-
-  .nav-link, .fa-home {
-    font-size: 1.3625rem;
-  }
-
-  #self-image {
-    max-width: 275px;
-  }
-  
-  #section-content h2 {
-    font-size: 2.125em
-  }
-
-  .fa-lg {
-    font-size: 1.5252rem;
-  }
-
-  #about-me {
-    width: 70%;
-  }
+// Customize the menubar color
+.ui.menu {
+  // background: $background-start;]
+  background : #7a8999; // grayish
 }
+//Project Ends
