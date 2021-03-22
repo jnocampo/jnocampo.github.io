@@ -1,48 +1,3 @@
-<!-- start
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="mobile-web-app-capable" content="yes">
-
-  <title>
-    {% if page.title %}
-      {{ page.title }} |
-    {% endif %}
-    {{ site.title }}
-  </title>  end of comment tag-->
-
-  <!-- Load Javascript and CSS for Semantic UI -->
- 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/css/semantic-ui/semantic.min.js"></script>
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/semantic-ui/semantic.min.css"> 
-
-  <!-- Load Techfolio CSS customizations -->
-  <!-- start comment
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-default.css">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-customizations.css">
-
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-default.css" media="print">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-customizations.css" media="print"> end comment -->
-
-  <!-- Load a rouge theme from the sample themes in css/rouge.
-       See https://benhur07b.github.io/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
-  -->
-  <!-- start comment
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/rouge/{{ site.rouge-theme}}.css"> end comment -->
-
-  <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
-  <!--start comment
-  {% if site.mathjax %}
-  <script type="text/javascript"
-          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  {% endif %}
-
-
-</head>
-end comment -->
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,63 +11,27 @@ end comment -->
     {{ site.title }}
   </title>
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-TNFQGVR');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Loading in Bootstrap -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-
-  <!-- SVG Icons -->
-  <script src="https://kit.fontawesome.com/97c7544a53.js"></script>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap" rel="stylesheet">
+  <!-- Load Javascript and CSS for Semantic UI -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/css/semantic-ui/semantic.min.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/semantic-ui/semantic.min.css">
 
   <!-- Load Techfolio CSS customizations -->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-default.css">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/stylesheet-customizations.css">
-
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-default.css" media="print">
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/print-customizations.css" media="print">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Oxygen|Quicksand|Raleway|Robot&display=swap" rel="stylesheet">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146594285-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <!-- Load a rouge theme from the sample themes in css/rouge.
+       See https://benhur07b.github.io/2017/03/25/add-syntax-highlighting-to-your-jekyll-site-with-rouge.html
+  -->
 
-    gtag('config', 'UA-146594285-1');
-  </script>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/rouge/{{ site.rouge-theme}}.css">
+
+  <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+  {% if site.mathjax %}
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% endif %}
+
 </head>
-
-<hr class="ui borderless topmenu menu line-hr pre-content ">
-<div id="site-content" class=mx-auto>
-  <nav class="navbar navbar-expand-lg navbar-light mt-3">
-      <a class="navbar-brand" href="#"></a>
-        <a class="log-img navbar-brand mr-auto" href="{{ site.baseurl }}/"><i class="large white home icon"></i></a>
-        <ul class="navbar-nav mt-2 mt-lg-0">
-          <li class="nav-item mx-2">
-            <a class="nav-link" href="{{ site.baseurl}}/projects/">Projects</a>
-          </li>
-          <li class="nav-item mx-2">
-              <a class="nav-link" href="{{ site.baseurl}}/essays/">Essays</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a target='_blank' class="nav-link" href="{{ site.baseurl}}/downloads/Jessica_Ocampo_Resume.pdf">Resume</a>
-          </li>
-        </ul>
-    </nav>
