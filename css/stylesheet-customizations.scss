@@ -12,6 +12,16 @@
   #home-icons {
     text-align: center;
   }
+  
+  // https://gist.github.com/bl4ck5un/ed27db3d653011b32ee0877058abac7d
+  [class*="mobile only"]:not(.tablet),
+  [class*="tablet hidden"],
+  [class*="computer only"]:not(.tablet),
+  [class*="large screen only"]:not(.tablet),
+  [class*="widescreen only"]:not(.tablet),
+  [class*="or lower hidden"]:not(.mobile) {
+    display: none !important;
+  }
 }
 
 // Global CSS STARTS 
