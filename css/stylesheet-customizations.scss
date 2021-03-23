@@ -2,6 +2,17 @@
 # Provide front matter so Jekyll processes this file as SASS.
 ---
 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  #middle-text {
+   // text-align: center;
+      float: middle;
+      padding-top: 160px;
+  }
+  
+  #home-icons {
+    text-align: left;
+}
+
 // Global CSS STARTS 
 .border-other {
   border-top: 10px solid #F6AE2D; // border at top and bottom
