@@ -16,7 +16,7 @@
 .menu-buttons {
   font-family: 'Quicksand', serif !important;
   font-size: 20px;
-  color: #000 !important;
+  color: white !important;
   float: right;
   padding-left: 10px;
   padding-right: 10px;
@@ -24,15 +24,15 @@
 }
 
 p.menu-buttons:hover {
-  color: #d5ede4 !important;
+  color: #F6AE2D !important;
 }
 
 .big.icon:hover {
-  color: #d5ede4 !important;
+  color: #F6AE2D !important;
 }
 
 .big.icon {
-  color: #000000 !important;
+  color: white !important;
   padding-top: 10px;
   padding-left: 20px;
 }
@@ -40,7 +40,7 @@ p.menu-buttons:hover {
 
 //Home page CSS STARTS & Custom background colors 
 body {
-  background-color: #FFFFFF; //white
+  background-color: #33658A; //blueish
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 #border-home {
-  border-top: 10px solid #d5ede4; // gives it the border
+  border-top: 10px solid #F6AE2D; // gives it the border
   left: 0;
   right: 0;
 }
@@ -85,11 +85,11 @@ body {
 }
 
 .huge.icon:hover {
-  color: #d5ede4 !important;
+  color: white !important;
 }
 
 .huge.icon {
-  color: #000000 !important;
+  color: #F6AE2D !important;
   padding-top: 10px;
   padding-left: 20px;
 }
