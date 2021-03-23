@@ -7,11 +7,18 @@
 
 <div id="border-home">
   <div id="ui three item menu">
-    <a href="{{ site.baseurl}}/files/RESUME.pdf" target="_blank" class="item">
+    <a href="{{ site.baseurl }}/downloads/Jessica_Ocampo_Resume.pdf" target="_blank" class="item">
       <p class="menu-buttons">
         Resume
       </p>
     </a>
+    <!-- add the about me here, create a directory and set base url for about me
+    <a href="{{ site.baseurl }}/about/" class="item">
+      <p class="menu-buttons">
+      About
+      </p>
+    </a>
+    -->
     <a href="{{ site.baseurl}}/projects/" class="item">
       <p class="menu-buttons">
         Projects
@@ -27,25 +34,25 @@
   <div class="center-grid" style="
     display: flex;
     width: 100vw !important">
-  <div class="ui three column centered grid container">
-  
-<!--  <div class="ui fluid container">-->
+    <div class="ui three column centered grid container">
 
-    <div class="six wide center aligned column">
-    <div class="ui fluid circular image">
-      <img id='image' style="max-width: 300px" src="{{ site.data.bio.basics.picture }}">
-  </div>
+      <!--  <div class="ui fluid container">-->
+
+      <div class="six wide center aligned column">
+        <div class="ui fluid circular image">
+          <img id='image' style="max-width: 300px" src="{{ site.data.bio.basics.picture }}">
+        </div>
+      </div>
+
+      <div class="ten wide left aligned column">
+        <div id="middle-text">
+          <h2 id="name" class="header no-bottom">{{ site.data.bio.basics.name }}</h2>
+          <p id="label" class="">{{ site.data.bio.basics.label }}</p>
+          <p id="home-icons" style="text-align: left">
+            {% include home-network-links.html %}
+          </p>
+        </div>
+      </div>
     </div>
-
-<div class="ten wide left aligned column">
-  <div id="middle-text">
-    <h2 id="name" class="header no-bottom">{{ site.data.bio.basics.name }}</h2>
-    <p id="label" class="">{{ site.data.bio.basics.label }}</p>
-    <p id="home-icons" style="text-align: left">
-      {% include home-network-links.html %}
-    </p>
   </div>
-</div>
-</div>
-</div>
 </div>
