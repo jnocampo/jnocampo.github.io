@@ -31,7 +31,7 @@
     </a>
     <div id="home-icon">
       <a href="{{ site.baseurl}}/">
-        <i class="big home icon"></i>
+        <i class="home icon"></i>
       </a>
     </div>
   </div>
@@ -42,18 +42,19 @@
     <div class="ui three column centered grid container">
 
       <!--  <div class="ui fluid container">-->
+        <!-- sixteen wide mobile ten wide computer left aligned column -->
 
-      <div class="six wide center aligned column">
+      <div class="sixteen wide mobile six wide computer center aligned column">
         <div class="ui fluid circular image">
-          <img id='image' style="max-width: 300px" src="{{ site.data.bio.basics.picture }}">
+          <img id='image'  src="{{ site.data.bio.basics.picture }}">
         </div>
       </div>
 
-      <div class="ten wide left aligned column">
+      <div class="sixteen wide mobile ten wide computer left aligned column">
         <div id="middle-text">
           <h2 id="name" class="header no-bottom">{{ site.data.bio.basics.name }}</h2>
           <p id="label" class="">{{ site.data.bio.basics.label }}</p>
-          <p id="home-icons" style="text-align: left">
+          <p id="home-icons">
             {% include home-network-links.html %}
           </p>
         </div>

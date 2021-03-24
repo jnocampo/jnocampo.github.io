@@ -2,25 +2,58 @@
 # Provide front matter so Jekyll processes this file as SASS.
 ---
 
-@media (min-width: 768px) and (max-width: 991.98px) { 
- /* #middle-text {
+@media (min-width: 1px) {
+  #middle-text {
+    padding-top: none;
     text-align: center;
-   //   float: middle;
-    //  padding-top: 160px;
   }
-  
-  #home-icons {
-    text-align: center;
-  } */
-  
-  // https://gist.github.com/bl4ck5un/ed27db3d653011b32ee0877058abac7d
-  [class*="mobile only"]:not(.tablet),
-  [class*="tablet hidden"],
-  [class*="computer only"]:not(.tablet),
-  [class*="large screen only"]:not(.tablet),
-  [class*="widescreen only"]:not(.tablet),
-  [class*="or lower hidden"]:not(.mobile) {
-    display: none !important;
+
+  #name {
+    font-size: 3em;
+  }
+  #label {
+    font-size: 1.5em !important;
+  }
+
+  .menu-buttons {
+    font-size: 1em;
+  }
+  .home.icon {
+    font-size: 1.5em;
+  }
+  .net.icon {
+    font-size: 2em;
+  }
+  #image {
+    max-width: 225px;;
+  }
+}
+
+@media (min-width: 992px) {
+  #middle-text {
+    padding-top: 12em;
+    text-align: left;
+  }
+
+  #name {
+    font-size: 6em;
+  }
+  #label {
+    font-size: 2.2em !important;
+  }
+  .menu-buttons {
+    font-size: 20px;
+  }
+  .home.icon{
+    font-size: 2em;
+    //padding-top: 10%;;
+  }
+  .net.icon {
+    font-size: 4em;
+    padding-left: 20px;
+  }
+  #image{
+    max-width: 300px;
   }
 }
 
@@ -37,7 +70,7 @@
 // Menu CSS STARTS
 .menu-buttons {
   font-family: 'Quicksand', serif !important;
-  font-size: 20px;
+ // font-size: 20px;
   color: white !important;
   float: right;
   padding-left: 10px;
@@ -49,11 +82,22 @@ p.menu-buttons:hover {
   color: #F6AE2D !important;
 }
 
+/*
 .big.icon:hover {
   color: #F6AE2D !important;
 }
 
 .big.icon {
+  color: white !important;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+*/
+.home.icon:hover {
+  color: #F6AE2D !important;
+}
+
+.home.icon {
   color: white !important;
   padding-top: 10px;
   padding-left: 20px;
@@ -65,12 +109,11 @@ body {
   background-color: #33658A; //blueish
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: white !important;
 }
 
 #name {
   font-family: 'Oxygen', serif !important;
-  font-size: 80px;
 }
 
 #label {
@@ -99,14 +142,14 @@ body {
 #middle-text {
   font-family: 'Raleway', serif !important;
   float: middle;
-  padding-top: 160px;
+//  text-align: left;
 }
 
 .ui.fluid.circular.image {
   padding-left: 50px !important;
   padding-top: 150px;
 }
-
+/*
 .huge.icon:hover {
   color: white !important;
 }
@@ -116,11 +159,21 @@ body {
   padding-top: 10px;
   padding-left: 20px;
 }
+*/
+.net.icon:hover {
+  color: white !important;
+}
 
+.net.icon {
+  color: #F6AE2D !important;
+  padding-top: 10px;
+  //padding-left: 20px;
+}
 // icon home page colors 
 .icon-color {
    color: #000000;
 }
+
 // Home page ENDS
 
 
