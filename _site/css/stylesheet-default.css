@@ -1,0 +1,13 @@
+body { background-color: #ffe8d6; }
+
+.ui.menu { background: #cb997e; }
+
+.icon-color { color: white; }
+
+.list-padding ul li { padding: 5px 0px; }
+
+.list-padding ol li { padding: 5px 0px; }
+
+.no-bottom { margin-bottom: 0px !important; padding-bottom: 0px !important; }
+
+/*# sourceMappingURL=stylesheet-default.css.map */

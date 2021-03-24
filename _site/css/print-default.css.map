@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "print-default.css",
+	"sources": [
+		"print-default.scss"
+	],
+	"sourcesContent": [
+		"@charset \"utf-8\";\n\n// Used to remove menubar from page when printing.\n.nonprintable {\n  display: none;\n}\n\n// Make text smaller, remove spacing between list items when printing.\n@media print {\n\n  p, a, li {\n    font-size: 12px;\n  }\n\n  h1, h2.ui.header, h3.ui.header {\n    font-size: 14px;\n  }\n\n  a {\n    color: black;\n  }\n\n  ul li {\n    padding: 0px;\n    margin: 0px;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAGA,AAAA,aAAa,CAAC,EACZ,OAAO,EAAE,IAAI,GACd;;AAGD,MAAM,MAEJ,GAAA,AAAA,CAAC,EAAE,CAAC,EAAE,EAAE,CAAC,EACP,SAAS,EAAE,IAAI,GAChB,CAED,AAAA,EAAE,EAAE,EAAE,AAAA,GAAG,AAAA,OAAO,EAAE,EAAE,AAAA,GAAG,AAAA,OAAO,CAAC,EAC7B,SAAS,EAAE,IAAI,GAChB,CAED,AAAA,CAAC,CAAC,EACA,KAAK,EAAE,KAAK,GACb,CAED,AAAA,EAAE,CAAC,EAAE,CAAC,EACJ,OAAO,EAAE,GAAG,EACZ,MAAM,EAAE,GAAG,GACZ,EAbA"
+}

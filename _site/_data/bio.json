@@ -1,0 +1,24 @@
+{
+  "basics": {
+    "name": "Jessica Ocampo",
+    "label": "Computer Science Student at Manoa. (She/Her)",
+    "picture": "https://jnocampo.github.io/images/IMG_5601.JPG",
+    "pronouns": "She/Her",
+    "email": "jessicaocampo415@gmail.com",
+    "phone": "",
+    "website": "https://jnocampo.github.io",
+    "summary": "Computer Science Student at University of Hawaii at Manoa, graduating FALL 2021.",
+    "profiles": [
+      {
+        "network": "github",
+        "username": "jnocampo",
+        "url": "http://github.com/jnocampo"
+      },
+      {
+        "network": "linkedin",
+        "username": "jnocampo",
+        "url": "http://linkedin.com/in/jnocampo"
+      }
+    ]
+  }
+}

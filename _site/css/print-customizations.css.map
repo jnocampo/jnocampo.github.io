@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "print-customizations.css",
+	"sources": [
+		"print-customizations.scss"
+	],
+	"sourcesContent": [
+		"// Put your custom CSS for printing pages here.\nbody {\n    background-color: #f2f2f2;\n}\n\n.ui.menu{\n    //background: $baackground-start\n}\n\n.icon-color {\n    color: black;\n}\n"
+	],
+	"names": [],
+	"mappings": "AACA,AAAA,IAAI,CAAC,EACD,gBAAgB,EAAE,OAAO,GAC5B;;AAMD,AAAA,WAAW,CAAC,EACR,KAAK,EAAE,KAAK,GACf"
+}

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "stylesheet-default.css",
+	"sources": [
+		"stylesheet-default.scss"
+	],
+	"sourcesContent": [
+		"@charset \"utf-8\";\n\n// Default CSS.\n// Don't edit this file.  Put your changes in stylesheet-customizations.scss\n\n// Default background color\nbody {\n  background-color: #ffe8d6;\n}\n\n// Default menubar color\n.ui.menu {\n  background: #cb997e;\n}\n\n// Default home page icon color\n.icon-color {\n  color: white;\n}\n\n\n// Prefer space between list items in screen mode.\n.list-padding {\n  ul li { padding: 5px 0px; }\n  ol li { padding: 5px 0px; }\n}\n\n// This class is used in the prebuilt bio themes.\n.no-bottom {\n  margin-bottom: 0px !important;\n  padding-bottom: 0px !important;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAMA,AAAA,IAAI,CAAC,EACH,gBAAgB,EAAE,OAAO,GAC1B;;AAGD,AAAA,GAAG,AAAA,KAAK,CAAC,EACP,UAAU,EAAE,OAAO,GACpB;;AAGD,AAAA,WAAW,CAAC,EACV,KAAK,EAAE,KAAK,GACb;;AAID,AACE,aADW,CACX,EAAE,CAAC,EAAE,CAAC,EAAE,OAAO,EAAE,OAAO,GAAI;;AAD9B,AAEE,aAFW,CAEX,EAAE,CAAC,EAAE,CAAC,EAAE,OAAO,EAAE,OAAO,GAAI;;AAI9B,AAAA,UAAU,CAAC,EACT,aAAa,EAAE,cAAc,EAC7B,cAAc,EAAE,cAAc,GAC/B"
+}
