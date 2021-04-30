@@ -11,7 +11,7 @@ Whether you know it or not we use patterns in our everyday life. It is the found
 
 <br>
 
-<img class="ui image" src="../images/i-see-patterns.jpeg" style="max-width:50%; max-height: 50%;">
+<img class="ui image" src="../images/i-see-patterns.jpeg" style="text-align: center; max-width:50%; max-height: 50%;">
 
 <br>
 
@@ -28,7 +28,7 @@ There are various kinds of designs out there and not everyone will use every pat
 
 <br>
 
-<img class="ui image" src="../images/i-see-patterns.jpeg" style="max-width:50%; max-height: 50%;">
+<img class="ui image" src="../images/size-all.jpeg" style="text-align: center; max-width:50%; max-height: 50%;">
 
 <br>
 
