@@ -1,13 +1,18 @@
 ---
 layout: essay
 type: essay
-title: Life Update: Journey into becoming a Software Engineer
+title: Life Update! My Journey into Becoming a Software Engineer
 # All dates must be YYYY-MM-DD format!
 date: 2021-05-13
 labels:
   - Software Engineering
-  - Learning
+  - Design Patterns
+  - Advice
+  - Ethics
+  - Coding Standards
 ---
+
+
 
 <img class="ui image" src="../images/update.jpeg" style="max-width:50%; max-height: 50%;">
 
