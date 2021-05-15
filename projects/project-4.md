@@ -15,7 +15,7 @@ labels:
 summary: Group Web Application Project designed for UH Manoa Students 
 ---
 
-<img style="width:700px "align="center" src="../images/M2-userhome.png">
+<img align="center" src="../images/M2-userhome.png">
 
 <br>
 
@@ -23,7 +23,9 @@ Manoa Hunger Helper is a Web Application made by myself and my fellow classmates
 
 <br> 
 
-<img align="center" src="../images/allvendors-page.png">
+<div align="center">
+<img src="../images/allvendors-page.png">
+</div>
 
 <br>
 
@@ -35,7 +37,9 @@ For this project we faced challenges that we overcame together as a group. Remot
 
 <br> 
 
-<img align="center" src="../images/milestone-page.jpeg">
+<div align="center">
+<img src="../images/milestone-page.jpeg">
+</div>
 
 <br> 
 
@@ -54,3 +58,6 @@ Click [here](https://manoa-hunger-helper.github.io/) to view our project home pa
 <br>
 [View Source Code](https://github.com/manoa-hunger-helper/manoa-hunger-helper)
 
+<br>
+
+<br>
