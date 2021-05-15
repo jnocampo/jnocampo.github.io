@@ -15,7 +15,7 @@ labels:
 summary: Group Web Application Project designed for UH Manoa Students 
 ---
 
-<img align="center" src="../images/M2-userhome.png">
+<img style="width:700px "align="center" src="../images/M2-userhome.png">
 
 <br>
 
