@@ -14,8 +14,9 @@ labels:
   - Meteor 
 summary: Group Web Application Project designed for UH Manoa Students 
 ---
-
-<img align="center" src="../images/M2-userhome.png">
+<div align="center">
+<img align="center" src="../images/M2-userhome.png" style="width:700px;">
+</div>
 
 <br>
 
@@ -53,10 +54,11 @@ I am very grateful for the team I have worked with, and the skills I gained duri
 
 <br>
 
-
+<div align="center">
 Click [here](https://manoa-hunger-helper.github.io/) to view our project home page.
 <br>
 [View Source Code](https://github.com/manoa-hunger-helper/manoa-hunger-helper)
+</div>
 
 <br>
 
