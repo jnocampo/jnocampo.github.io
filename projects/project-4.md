@@ -54,7 +54,7 @@ I am very grateful for the team I have worked with, and the skills I gained duri
 
 <br>
 
-<center>Click [here](https://manoa-hunger-helper.github.io/) to view our project home page. </center>
+Click [here](https://manoa-hunger-helper.github.io/) to view our project home page. 
 <br>
 [View Source Code](https://github.com/manoa-hunger-helper/manoa-hunger-helper)
 
