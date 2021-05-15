@@ -30,7 +30,7 @@ Manoa Hunger Helper is a Web Application made by myself and my fellow classmates
 
 <br>
 
-Our application provides users with detailed information regarding available vendors, location, hours, payment types and dietary options. Users can set preferences, and filter their results. Additionally, Vendors are able to create accounts for themselves to manage their accounts to modify their own information themselves. 
+Our application provides users with detailed information regarding available vendors, location, hours, payment types and dietary options. Users can set preferences, and filter their results. Additionally, Vendors are able to create accounts for themselves to manage and modify their own information themselves. 
 
 <br>
 
