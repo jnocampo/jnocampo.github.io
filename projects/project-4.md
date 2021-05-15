@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/M2-userhome.png
-title: Manoa Hunger Helper Web Application
+title: Manoa Hunger Helper Web 
 permalink: projects/Manoa-Hunger-Helper-Web-App
 # All dates must be YYYY-MM-DD format!
 date: 2021-05-14
