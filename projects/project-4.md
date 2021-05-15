@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/M2-userhome.png
-title: Manoa Hunger Helper Web 
+title: Manoa Hunger Helper  
 permalink: projects/Manoa-Hunger-Helper-Web-App
 # All dates must be YYYY-MM-DD format!
 date: 2021-05-14
@@ -54,11 +54,10 @@ I am very grateful for the team I have worked with, and the skills I gained duri
 
 <br>
 
-<div align="center">
-Click [here](https://manoa-hunger-helper.github.io/) to view our project home page.
+<center>Click [here](https://manoa-hunger-helper.github.io/) to view our project home page. </center>
 <br>
 [View Source Code](https://github.com/manoa-hunger-helper/manoa-hunger-helper)
-</div>
+
 
 <br>
 
