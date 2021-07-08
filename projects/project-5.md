@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/UH-Landing.png
+image: images/UH-landing.png
 title: UH Marketplace
 permalink: projects/UH-Marketplace
 # All dates must be YYYY-MM-DD format!
@@ -30,7 +30,7 @@ UH Marketplace is a web application designed for students at the University of H
 <br>
 
 <div align="center">
-  <img src="../images/phone-landing.png" style="width:100%;">
+  <img src="../images/phone-landing.png">
   <p>Example of Responsive UI - Landing page</p>
 </div>
 
