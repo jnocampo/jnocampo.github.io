@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/girlswhocode.png
-title: Girls Who Code
-permalink: projects/GWC
+image: images/spam-Landing.png
+title: Simple Password Account Manager
+permalink: projects/SPAM
 # All dates must be YYYY-MM-DD format!
 date: 2021-06-30
 labels:
@@ -16,6 +16,8 @@ summary: Password Mangaer
 <div align="center">
   <img align="center" src="../images/spam-Landing.png" style="width:700px;">
 </div>
+
+<br> 
 
 SPAM - Simple Password Account Manager is a password manager where users can sign up and save existing account information in a single space. Users can view all existing password items, update, delete, and make new password items all in a single master account. 
 
