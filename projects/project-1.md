@@ -18,7 +18,7 @@ summary: Competed in the 2019 Honolulu Annual Code Challenge and grabbed third p
 
 <br>
 
-In Fall 2019, my team and I got third place at HACC2019. The Honolulu Annual Code Challenge (HACC) is a competition is that is "designed to engage the community in modernizing state functions". My team and I created Electrical Vehicle Charging Station Analysis that helps see potential problems with EV charging stations in Hawai'i by collecting data. 
+In Fall 2019, my team and I got third place at HACC2019. The Honolulu Annual Code Challenge (HACC) is a competition that is "designed to engage the community in modernizing state functions". My team and I created Electrical Vehicle Charging Station Analysis that helps see potential problems with EV charging stations in Hawai'i by collecting data. 
 
 <br>
 
