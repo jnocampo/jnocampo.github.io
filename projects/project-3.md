@@ -5,28 +5,64 @@ image: images/girlswhocode.png
 title: Girls Who Code
 permalink: projects/GWC
 # All dates must be YYYY-MM-DD format!
-date: 2019-01-12
+date: 2021-06-30
 labels:
-  - programming
-  - teaching
-  - leadership 
-summary: Student aid for the Girls Who Code Chapter in Honolulu.
+  - Software Quality Assurance
+  - Programming
+  - Design
+  - Security
+summary: Password Mangaer
 ---
+<div align="center">
+  <img align="center" src="../images/spam-Landing.png" style="width:700px;">
+</div>
 
-<img class="ui image" src="{{ site.baseurl }}/images/girlswhocode2.jpg">
+SPAM - Simple Password Account Manager is a password manager where users can sign up and save existing account information in a single space. Users can view all existing password items, update, delete, and make new password items all in a single master account. 
 
+<br>
 
-**What is girls who code?**
+<div align="center">
+  <img src="../images/spam-Add-Password.png" style="width:700px;">
+  <p>*Sample Adding Password</p>
+</div>
 
-Girls Who code is a nonprofit organization that aims to help young girls get interested in computer science and get the opportunities in the field.
+<br> 
 
-I spent a good portion of the beginning of the year volunteering and becoming a student aid for a local Girls Who Code program in Honolulu. I have heard of the GWC program since I was in high school myself. It is a great organization that gives young women the opportunity to learn more about computer science. 
+<div align="center">
+  <img src="../images/spam-Edit-Password.png" style="width:700px;">
+  <p>*Sample Editing Password</p>
+</div>
 
-After taking a few classes at the University of Hawai't at Manoa, I had remembered about the clubs back home and was out to search for one locally. I wanted to help give back into a community that promotes women success and education. Being a part of the program helped enrich my knowledge and immerse myself in the younger community and their thoughts and dreams on being a computer scientist! 
+<br>
 
-Some skills I learned while being a part of this program was leadership, creating presentations and reinforcing my own background in programming. What was most enriching was inspiring the young girls and encouraging them that they could do whatever they want. I think I learned more from them than they did me. 
+<div align="center">
+  <img src="../images/spam-View-Passwords.png" style="width:700px;">
+  <p>*Sample viewing all password Page</p>
+</div>
 
+<br>
 
-Find your local club and help support young girls interested in STEM
+During this project, we spent a lot of time implementing and understanding secure coding practices. I learned a lot regarding risk analysis, safe and good practices, and how to identify threats using threat modeling. In this project we put a lot of emphasis in our documentation (see [here](https://github.com/CGJL/spam/blob/master/doc/Documentation.pdf)) where we layout all of these topics, design, and security requirements and more in depth.  
 
-[Girls Who Code Locations](https://girlswhocode.com/locations/). 
+<br>
+
+#### My contribution: 
+* Created the user accounts page where user’s can view and sort all account and password information, populated the
+database, and help set up the meteor template
+* Determined necessary security and design requirements using secure coding practices and threat modeling, provided risk
+assessment plan for security and privacy, and applied static analysis tools for our application
+
+<br> 
+
+#### My Takeaways:
+* Practicing secure coding practices are a necessity when developing and to help decrease the amount of security issues that may arise
+* Dynamic and static analysis tools are beneficial throughout your development process
+* The SDLC (Systems Development Life Cycle) can help transform your idea to a safe and functional application that covers necessary requirements for safe practices.
+
+<br>
+
+Click [here](https://github.com/CGJL/spam/wiki) to view our wiki and source code. 
+
+<br>
+
+<br> 
